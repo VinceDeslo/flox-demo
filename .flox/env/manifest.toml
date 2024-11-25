@@ -12,6 +12,7 @@ version = 1
 elixir.pkg-path = "elixir"
 ocaml.pkg-path = "ocaml"
 scc.pkg-path = "scc"
+python3.pkg-path = "python3"
 # hello.pkg-path = "hello"
 # nodejs = { version = "^20.15.1", pkg-path = "nodejs" }
 
