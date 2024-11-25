@@ -28,10 +28,15 @@ flox install ocaml
 flox activate
 ocaml hello.ml
 
-flox search python
-flox install python
+flox search python3
+flox install python3
 flox activate
-python hello.py
+python3 hello.py
 
 flox push
 ```
+
+## Links
+- https://github.com/flox/flox
+- https://flox.dev/docs/
+- https://search.nixos.org/packages
