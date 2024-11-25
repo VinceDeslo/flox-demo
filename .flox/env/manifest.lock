@@ -1,0 +1,393 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "elixir": {
+        "pkg-path": "elixir"
+      },
+      "ocaml": {
+        "pkg-path": "ocaml"
+      },
+      "scc": {
+        "pkg-path": "scc"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ],
+      "allow": {
+        "licenses": []
+      },
+      "semver": {}
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "elixir",
+      "broken": false,
+      "derivation": "/nix/store/g89l5mbv0q08psar0bmwr8h3r9y0x8xn-elixir-1.17.3.drv",
+      "description": "Functional, meta-programming aware language built on top of the Erlang VM",
+      "install_id": "elixir",
+      "license": "EPL-1.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "elixir-1.17.3",
+      "pname": "elixir",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.17.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/91w79z55qsjkhnbs3a21l3h27va98mf6-elixir-1.17.3"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "elixir",
+      "broken": false,
+      "derivation": "/nix/store/8xsrkl4ms60bhakb4qwvi9n6y3hf1cg3-elixir-1.17.3.drv",
+      "description": "Functional, meta-programming aware language built on top of the Erlang VM",
+      "install_id": "elixir",
+      "license": "EPL-1.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "elixir-1.17.3",
+      "pname": "elixir",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.17.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/7p1i695gzmvyxq5955d7sb7gzjxly5xy-elixir-1.17.3"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "elixir",
+      "broken": false,
+      "derivation": "/nix/store/wpkpj5633asggh7sdh8v4172bj8d8774-elixir-1.17.3.drv",
+      "description": "Functional, meta-programming aware language built on top of the Erlang VM",
+      "install_id": "elixir",
+      "license": "EPL-1.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "elixir-1.17.3",
+      "pname": "elixir",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.17.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/gnjg57wv71svvqw7s3rxyjc6lkps2r95-elixir-1.17.3"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "elixir",
+      "broken": false,
+      "derivation": "/nix/store/yh6pq7dp8sa72ivj9dn8zack7pwm54qj-elixir-1.17.3.drv",
+      "description": "Functional, meta-programming aware language built on top of the Erlang VM",
+      "install_id": "elixir",
+      "license": "EPL-1.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "elixir-1.17.3",
+      "pname": "elixir",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.17.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/5gcginlwbcswnyl4rh64g0g3dz5qwx4c-elixir-1.17.3"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ocaml",
+      "broken": false,
+      "derivation": "/nix/store/zh1nbm9mfgcn55c3j0k8hqi4wzh6bqfm-ocaml-5.2.0.drv",
+      "description": "OCaml is an industrial-strength programming language supporting functional, imperative and object-oriented styles",
+      "install_id": "ocaml",
+      "license": "[ QPL-1.0, LGPL-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "ocaml-5.2.0",
+      "pname": "ocaml",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.2.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/kknspgrl25z19nr8wqnj8l0rm8bhdqbl-ocaml-5.2.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ocaml",
+      "broken": false,
+      "derivation": "/nix/store/3miy1bmbv0l49vr6yhjn4fc3ggwsvrk1-ocaml-5.2.0.drv",
+      "description": "OCaml is an industrial-strength programming language supporting functional, imperative and object-oriented styles",
+      "install_id": "ocaml",
+      "license": "[ QPL-1.0, LGPL-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "ocaml-5.2.0",
+      "pname": "ocaml",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.2.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/hdhwc94l508mwvgqb2zq7igjkv8kmzf1-ocaml-5.2.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ocaml",
+      "broken": false,
+      "derivation": "/nix/store/m6w8zb82nh79fzdhr63saz7jbfvs4s79-ocaml-5.2.0.drv",
+      "description": "OCaml is an industrial-strength programming language supporting functional, imperative and object-oriented styles",
+      "install_id": "ocaml",
+      "license": "[ QPL-1.0, LGPL-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "ocaml-5.2.0",
+      "pname": "ocaml",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.2.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/afn2awkinn8imvx5sfahwgzl4sha9hb0-ocaml-5.2.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ocaml",
+      "broken": false,
+      "derivation": "/nix/store/6q8nl3id50w69bb54ffvkr4cn4b7xhbf-ocaml-5.2.0.drv",
+      "description": "OCaml is an industrial-strength programming language supporting functional, imperative and object-oriented styles",
+      "install_id": "ocaml",
+      "license": "[ QPL-1.0, LGPL-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "ocaml-5.2.0",
+      "pname": "ocaml",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.2.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/cs8jpkz6cr9r8cjx5r00hkna31r3dvn7-ocaml-5.2.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "scc",
+      "broken": false,
+      "derivation": "/nix/store/980wi3sfgk9drih4mh1yzlhvz9vaym7a-scc-3.4.0.drv",
+      "description": "Very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go",
+      "install_id": "scc",
+      "license": "[ MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "scc-3.4.0",
+      "pname": "scc",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.4.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/yrxyx7bz3zb48fyvxmqdxcfpsydzajz6-scc-3.4.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "scc",
+      "broken": false,
+      "derivation": "/nix/store/1lrwwr7jsc0jp6dln089rbxflwrg4gk3-scc-3.4.0.drv",
+      "description": "Very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go",
+      "install_id": "scc",
+      "license": "[ MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "scc-3.4.0",
+      "pname": "scc",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.4.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/hvipv1a0n6q1nf4lgc0py6ivv3b0l3b4-scc-3.4.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "scc",
+      "broken": false,
+      "derivation": "/nix/store/2kdngfxn6j8a7chvi586ajkknvzd5dvl-scc-3.4.0.drv",
+      "description": "Very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go",
+      "install_id": "scc",
+      "license": "[ MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "scc-3.4.0",
+      "pname": "scc",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.4.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/2krzyks6mpcizmrd61g39i900cr94idm-scc-3.4.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "scc",
+      "broken": false,
+      "derivation": "/nix/store/af9wh66lr52l4zy9s1l55ccypd3y7bq9-scc-3.4.0.drv",
+      "description": "Very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go",
+      "install_id": "scc",
+      "license": "[ MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "name": "scc-3.4.0",
+      "pname": "scc",
+      "rev": "23e89b7da85c3640bbc2173fe04f4bd114342367",
+      "rev_count": 710087,
+      "rev_date": "2024-11-19T11:04:08Z",
+      "scrape_date": "2024-11-21T04:00:36Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.4.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/n7vmd7yq4n1hmh6q84bfkrgj3cvrzj76-scc-3.4.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
